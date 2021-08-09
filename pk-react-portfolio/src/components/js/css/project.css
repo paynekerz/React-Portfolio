@@ -1,0 +1,17 @@
+.proj-container h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.block-images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
+.block-images img {
+    width: calc(100% - (20px * 2));
+    margin: 20px;
+}

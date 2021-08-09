@@ -1,0 +1,32 @@
+.tech-container {
+  padding: 20px;
+}
+
+.tech-container h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  padding: 0;
+  max-width: 980px;
+}
+
+.icons img {
+  display: block;
+  float: left;
+  flex: 0 0 auto;
+}
